@@ -1,0 +1,112 @@
+body{
+    background: conic-gradient(from 125deg at top left,#bbcef8,#66e45a,#edb554,#e67ef2);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+header{
+   background: linear-gradient(to bottom, #3265f0,#add3f9);
+   border: 1px none pink;
+   font-family: monospace;
+    color: #79f17d;
+    font-size: 13px;
+    padding: 1px 15px 10px 5px;
+    margin-top: 10px;
+}
+#p-header{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.typewriter{
+    border: 3px none #e842e2;
+    padding: 5px;
+    box-shadow: 3px 3px 4px #ef76e5;
+    background-color: #ed42d9;
+    color: white;
+    width: 550px;
+    margin: auto;
+    transition: background-color 3s ease;
+    
+    
+}
+.typewriter:hover{
+    color: #171617;
+    background-color: #ee186a;
+}
+.typewriter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #038433; /* blinking cursor */
+  font-family: monospace;
+  font-size: 24px;
+
+  animation: typing 3s steps(25) forwards, blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 25ch; } /* 25 characters */
+}
+
+@keyframes blink {
+  50% { border-color: #ed55c4; 
+  }
+}
+
+#social-links{
+    text-align: right;
+    word-spacing: 5px;
+}
+
+#p4{
+    color: #6b47bd;
+    margin-left: 15px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-shadow: 5px 5px 5px #014b06dc;
+}
+#div1{
+    display: inline-block;
+    float: right;
+    border: 3px none #086308;
+    padding: 5px;
+    margin-top: 18px;
+    color: #e5f7e5;
+    background-color: #359a35;
+    box-shadow: 3px 3px 7px #ddf1b7;
+    width: 450px;
+    transition: background-color 3s ease;
+}
+#div1:hover{
+    
+    background-color:greenyellow ;
+    color: black;
+    
+    
+}
+.img{
+   display: inline-block;
+   overflow: hidden;
+   background-color: #e28622;
+   border: 2px solid #e26725;
+   border-radius: 22px;
+}   
+
+#p1{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#p2{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15px;
+}
+#p3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15px;
+}
